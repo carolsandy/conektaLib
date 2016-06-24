@@ -7,10 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		354C3C021D1D9FDF00027EF3 /* Card.h in Headers */ = {isa = PBXBuildFile; fileRef = 354C3BFA1D1D9FDF00027EF3 /* Card.h */; };
+		354C3C031D1D9FDF00027EF3 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C3BFB1D1D9FDF00027EF3 /* Card.m */; };
+		354C3C041D1D9FDF00027EF3 /* Conekta.h in Headers */ = {isa = PBXBuildFile; fileRef = 354C3BFC1D1D9FDF00027EF3 /* Conekta.h */; };
+		354C3C051D1D9FDF00027EF3 /* Conekta.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C3BFD1D1D9FDF00027EF3 /* Conekta.m */; };
+		354C3C061D1D9FDF00027EF3 /* Connection.h in Headers */ = {isa = PBXBuildFile; fileRef = 354C3BFE1D1D9FDF00027EF3 /* Connection.h */; };
+		354C3C071D1D9FDF00027EF3 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C3BFF1D1D9FDF00027EF3 /* Connection.m */; };
+		354C3C081D1D9FDF00027EF3 /* Token.h in Headers */ = {isa = PBXBuildFile; fileRef = 354C3C001D1D9FDF00027EF3 /* Token.h */; };
+		354C3C091D1D9FDF00027EF3 /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C3C011D1D9FDF00027EF3 /* Token.m */; };
 		35A67A6E1D1D9D2700055C6E /* ConektaLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A67A6D1D1D9D2700055C6E /* ConektaLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		354C3BFA1D1D9FDF00027EF3 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		354C3BFB1D1D9FDF00027EF3 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		354C3BFC1D1D9FDF00027EF3 /* Conekta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conekta.h; sourceTree = "<group>"; };
+		354C3BFD1D1D9FDF00027EF3 /* Conekta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conekta.m; sourceTree = "<group>"; };
+		354C3BFE1D1D9FDF00027EF3 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		354C3BFF1D1D9FDF00027EF3 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		354C3C001D1D9FDF00027EF3 /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Token.h; sourceTree = "<group>"; };
+		354C3C011D1D9FDF00027EF3 /* Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Token.m; sourceTree = "<group>"; };
 		35A67A6A1D1D9D2700055C6E /* ConektaLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConektaLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A67A6D1D1D9D2700055C6E /* ConektaLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConektaLib.h; sourceTree = "<group>"; };
 		35A67A6F1D1D9D2700055C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +64,14 @@
 			children = (
 				35A67A6D1D1D9D2700055C6E /* ConektaLib.h */,
 				35A67A6F1D1D9D2700055C6E /* Info.plist */,
+				354C3BFA1D1D9FDF00027EF3 /* Card.h */,
+				354C3BFB1D1D9FDF00027EF3 /* Card.m */,
+				354C3BFC1D1D9FDF00027EF3 /* Conekta.h */,
+				354C3BFD1D1D9FDF00027EF3 /* Conekta.m */,
+				354C3BFE1D1D9FDF00027EF3 /* Connection.h */,
+				354C3BFF1D1D9FDF00027EF3 /* Connection.m */,
+				354C3C001D1D9FDF00027EF3 /* Token.h */,
+				354C3C011D1D9FDF00027EF3 /* Token.m */,
 			);
 			path = ConektaLib;
 			sourceTree = "<group>";
@@ -59,6 +83,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354C3C021D1D9FDF00027EF3 /* Card.h in Headers */,
+				354C3C081D1D9FDF00027EF3 /* Token.h in Headers */,
+				354C3C041D1D9FDF00027EF3 /* Conekta.h in Headers */,
+				354C3C061D1D9FDF00027EF3 /* Connection.h in Headers */,
 				35A67A6E1D1D9D2700055C6E /* ConektaLib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354C3C031D1D9FDF00027EF3 /* Card.m in Sources */,
+				354C3C051D1D9FDF00027EF3 /* Conekta.m in Sources */,
+				354C3C071D1D9FDF00027EF3 /* Connection.m in Sources */,
+				354C3C091D1D9FDF00027EF3 /* Token.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +309,7 @@
 				35A67A741D1D9D2700055C6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
