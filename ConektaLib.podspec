@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
  
   # 2
-  s.version = "0.1.0"
+  s.version = "0.1.1"
  
   # 3
   s.license = { :type => "MIT", :file => "LICENSE" }
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author = { "csalvador" => "carbucio@gmail.com" }
  
   # For example,
-  # s.author = { "Joshua Greene" => "jrg.developer@gmail.com" }
+  # s.author = { "Carmen Salvador" => "carbucio@gmail.com" }
  
  
   # 5 - Replace this URL with your own Github page's URL (from the address bar)
@@ -29,9 +29,6 @@ Pod::Spec.new do |s|
  
   # 6 - Replace this URL with your own Git URL from "Quick Setup"
   s.source = { :git => "https://github.com/carolsandy/conektaLib.git", :tag => "#{s.version}"}
- 
-  # For example,
-  # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
  
  
   # 7 dependencies
